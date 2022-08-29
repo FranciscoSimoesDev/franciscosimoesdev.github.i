@@ -25,6 +25,30 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+
+
+	.sectionHeader {
+		margin-bottom: 4rem;
+		text-align: center;
+	}
+
+	.centeredText {
+		
+		text-align: center;
+		inline-size: auto;
+	}
+
+	.video {
+		display: block;
+		margin-bottom: 4rem 0;
+		width: 100%;
+
+	}
+
+	.expand {
+		flex: 1 0 auto;
+	}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -2920,7 +2944,7 @@ input, select, textarea {
 		}
 
 		header > p {
-			font-style: italic;
+			font-style: none;
 		}
 
 		header > h1 + p {
@@ -3392,7 +3416,7 @@ input, select, textarea {
 
 		#intro p {
 			font-size: 1.25rem;
-			font-style: italic;
+
 			margin-top: -0.25rem;
 			text-align: center;
 		}
@@ -3408,6 +3432,7 @@ input, select, textarea {
 				transform: translateY(2rem);
 				opacity: 0;
 				visibility: hidden;
+				
 			}
 
 		#intro.hidden {
@@ -3425,12 +3450,14 @@ input, select, textarea {
 		}
 
 			#intro.hidden + #header .logo {
+				pointer-events: none;
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
 				visibility: visible;
+				font-style: normal;
 			}
 
 		body.is-preload #intro {
@@ -3542,6 +3569,7 @@ input, select, textarea {
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
+			
 		}
 
 		#header blockquote {
@@ -3574,12 +3602,14 @@ input, select, textarea {
 			padding: 1rem 1.75rem;
 			text-transform: uppercase;
 			visibility: visible;
+	
+
 		}
 
-			#header .logo:hover {
+			/* #header .logo:hover {
 				border-color: #18bfef !important;
 				color: #18bfef !important;
-			}
+			} */
 
 		@media screen and (max-width: 980px) {
 
