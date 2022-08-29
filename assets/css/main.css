@@ -27,9 +27,19 @@ section, summary, time, mark, audio, video {
 
 
 
+	.ul.bulletPoint
+	{
+		list-style-type: disc;
+	}
 	.sectionHeader {
 		margin-bottom: 4rem;
 		text-align: center;
+	}
+
+	.resumeLine {
+		margin-bottom: 4rem;
+		text-align: center;
+		font-size: 0.9rem;
 	}
 
 	.centeredText {
