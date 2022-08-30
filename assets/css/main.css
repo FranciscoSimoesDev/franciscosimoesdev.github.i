@@ -117,6 +117,14 @@ inherit
 	margin-bottom: 0rem;
 
 }
+.sectionHeader__resume{
+	margin-bottom: 0rem;
+  text-align: center;
+}
+.sectionHeader__centered{
+	margin-bottom: 0rem;
+
+}
 
 .resumeLine {
 	margin-bottom: 4rem;
