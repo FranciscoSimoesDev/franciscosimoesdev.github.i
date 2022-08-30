@@ -117,13 +117,15 @@ inherit
 	margin-bottom: 0rem;
 
 }
+.resumeFinalLine {
+	margin-bottom: -4rem;
+	text-align: center;
+
+}
+
 .sectionHeader__resume{
 	margin-bottom: 0rem;
-  text-align: center;
-}
-.sectionHeader__centered{
-	margin-bottom: 0rem;
-
+	text-align: center;
 }
 
 .resumeLine {
