@@ -97,6 +97,10 @@ video {
 }
 
 
+.paragraphFont {
+	font-family: elza-narrow, sans-serif;
+	text-align: center;
+}
 
 .ul.bulletPoint {
 	list-style-type: disc;
@@ -120,30 +124,40 @@ inherit
 .resumeFinalLine {
 	margin-bottom: -4rem;
 	text-align: center;
+	font-family: elza-narrow, sans-serif;
 
 }
 
 .sectionHeader__resume{
 	margin-bottom: 0rem;
 	text-align: center;
+	font-family: elza-narrow, sans-serif;
 }
+
 
 .resumeLine {
 	margin-bottom: 4rem;
 	text-align: center;
 	font-size: 0.9rem;
+	font-family: elza-narrow, sans-serif;
 }
 
 .centeredText {
-
+	font-family: elza-narrow, sans-serif;
 	text-align: center;
 	inline-size: auto;
 }
-
+.centeredText__other{
+	font-size: 1.1rem;
+	text-align: center;
+	margin-bottom: 0.3rem;
+	font-family: elza-narrow, sans-serif;
+}
 .showreelText {
 	text-align: center;
 	inline-size: auto;
 	margin-bottom: 1rem;
+	font-family: elza-narrow, sans-serif;
 }
 
 .video {
@@ -2814,7 +2828,10 @@ input[type="radio"]:focus+label:before {
 .image.main {
 	display: block;
 	margin: 4rem 0;
-	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+
 }
 
 .image.main:first-child {
@@ -3027,7 +3044,7 @@ ol li {
 
 ul {
 	list-style: disc;
-	margin: 0 0 2rem 0;
+	margin: 0 0 0rem 0;
 	padding-left: 1rem;
 }
 
@@ -3371,7 +3388,7 @@ table.alt tbody tr td {
 
 	.pagination .page,
 	.pagination .extra {
-		display: none;
+
 	}
 
 }
@@ -3776,6 +3793,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	border-color: #ffffff;
 	border-width: 5px !important;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	
 	font-size: 2.25rem;
 	font-weight: 900;
 	letter-spacing: 0.075em;
@@ -4001,7 +4019,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #main>.post {
-	padding: 8rem 8rem 6rem 8rem;
+	padding: 6rem 8rem 6rem 8rem;
 }
 
 #main>.post header.major>.date {
